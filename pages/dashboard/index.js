@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
-import HomePage from "../components/Home";
+import Layout from "../../components/Layout";
+import Dashboard from "../../components/Dashboard.js";
 
 const Index = () => {
   return (
@@ -14,7 +14,7 @@ const Index = () => {
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       </head>
       <Layout>
-        <HomePage />
+        <Dashboard />
       </Layout>
     </div>
   );

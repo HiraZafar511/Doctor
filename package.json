@@ -8,8 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "antd": "^4.13.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-next": "^1.0.5",
+    "jquery": "^3.5.1",
     "next": "10.0.7",
+    "next-redux-wrapper": "^6.0.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-bootstrap": "^1.5.0",
+    "react-dom": "17.0.1",
+    "react-multi-carousel": "^2.6.1",
+    "react-popupbox": "^2.0.8",
+    "react-redux": "^7.2.2",
+    "react-slick": "^0.28.0",
+    "redux": "^4.0.5",
+    "semantic-ui-react": "^2.0.3",
+    "slick-carousel": "^1.8.1"
   }
 }
