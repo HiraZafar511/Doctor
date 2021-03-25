@@ -1,4 +1,4 @@
-import Breadcrumb from "../Breadcrumb/Breadcrumb";
+import Breadcrumb from "../Combine/Breadcrumb/Breadcrumb";
 import Content from "./Content/Content";
 
 const index = () => {
@@ -6,6 +6,7 @@ const index = () => {
     <div className="sidebar-p">
       <Breadcrumb />
       <Content />
+    
     </div>
   );
 };

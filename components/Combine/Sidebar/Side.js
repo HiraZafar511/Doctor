@@ -21,12 +21,12 @@ const Side = () => {
     {
       icon: "fa-hourglass-start",
       title: "Schedule Timings",
-      page: "timing",
+      page: "schedual",
     },
     {
       icon: "fa-file-invoice",
-      title: "Invoices",
-      page: "invoices",
+      title: "Booking",
+      page: "booking",
     },
     {
       icon: "fa-star",
@@ -63,18 +63,18 @@ const Side = () => {
   ]);
 
   return (
-    <div class="theiaStickySidebar">
-      <div class="profile-sidebar">
-        <div class="widget-profile pro-widget-content">
-          <div class="profile-info-widget">
-            <a href="#" class="booking-doc-img">
+    <div className="theiaStickySidebar">
+      <div className="profile-sidebar">
+        <div className="widget-profile pro-widget-content">
+          <div className="profile-info-widget">
+            <a href="#" className="booking-doc-img">
               <img src="/images/doctor-thumb-02.jpg" alt="User Image" />
             </a>
-            <div class="profile-det-info">
+            <div className="profile-det-info">
               <h3>Dr. Fred Ortego</h3>
 
-              <div class="patient-details">
-                <h5 class="mb-0">
+              <div className="patient-details">
+                <h5 className="mb-0">
                   BDS, MDS - Oral &amp; Maxillofacial Surgery
                 </h5>
               </div>
@@ -87,7 +87,7 @@ const Side = () => {
         ))}
       </div>
       <div
-        class="resize-sensor"
+        className="resize-sensor"
         style={{
           position: "absolute",
           inset: 0,
@@ -96,7 +96,7 @@ const Side = () => {
         }}
       >
         <div
-          class="resize-sensor-expand"
+          className="resize-sensor-expand"
           style={{
             position: "absolute",
             left: "0",
@@ -118,7 +118,7 @@ const Side = () => {
           ></div>
         </div>
         <div
-          class="resize-sensor-shrink"
+          className="resize-sensor-shrink"
           style={{
             position: " absolute",
             left: "0",

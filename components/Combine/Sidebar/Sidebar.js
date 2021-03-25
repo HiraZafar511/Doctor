@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const Sidebar = ({ item }) => {
   return (
-    <div class="dashboard-widget">
-      <nav class="dashboard-menu">
+    <div className="dashboard-widget">
+      <nav className="dashboard-menu">
         <ul>
-          <li class={item.active}>
+          <li className={item.active}>
             <Link href={`${item.page}`}>
               <a href="#">
-                <i class={`fas ${item.icon}`}></i>
+                <i className={`fas ${item.icon}`}></i>
                 <span>{item.title}</span>
               </a>
             </Link>

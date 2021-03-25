@@ -66,11 +66,11 @@ body {
 }
 .footer-bottom .copyright-text {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 .policy-menu li a {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 .footer-about-content .social-icon ul {
   display: flex;
@@ -102,8 +102,41 @@ body {
   max-width: 550px;
   width: 100%;
 }
+.header .navbar .navbar-collapse ul li {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
 .banner-wrapper .banner-header {
   margin-bottom: 0px;
+}
+.header
+  ul.nav.navbar-nav.flex-D
+  li.dropdown
+  ul.dropdown-menu
+  li.dropdown
+  ul.dropdown-menu {
+  display: none;
+  left: 100%;
+  top: 0;
+}
+.header
+  ul.nav.navbar-nav.flex-D
+  li.dropdown
+  ul.dropdown-menu
+  li.dropdown:hover
+  ul.dropdown-menu {
+  margin: 0;
+}
+.header
+  ul.nav.navbar-nav.flex-D
+  li.dropdown
+  ul.dropdown-menu
+  li.dropdown:hover
+  ul.dropdown-menu {
+  display: block;
 }
 .banner-wrapper .banner-header h5 {
   font-size: 22px;
@@ -173,6 +206,17 @@ body {
   padding: 0;
   margin: 0;
 }
+.testimonials .react-multi-carousel-dot--active button {
+  background: #0168b3;
+}
+.card-heart {
+  padding: 12px 12px;
+
+  background-color: white;
+}
+.testimonials .react-multi-carousel-item {
+  margin-bottom: 40px;
+}
 .search-right-img {
   position: absolute;
   right: 30px;
@@ -233,7 +277,7 @@ body {
   margin-left: 30px;
 }
 .section-header h5 {
-  font-size: 18px;
+  font-size: 14px;
   color: #ee344e;
   position: relative;
   display: inline-block;
@@ -273,7 +317,7 @@ body {
   color: #ee314e;
 }
 .aboutus-section .left p {
-  font-size: 17px;
+  font-size: 14px;
   line-height: 1.85;
   color: #111111;
 }
@@ -298,13 +342,13 @@ body {
   min-width: 235px !important;
 }
 .aboutus-section .feature-box h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: #0168b3;
   font-weight: 600;
   margin-bottom: 3px;
 }
 .aboutus-section .feature-box h6 {
-  font-size: 15px;
+  font-size: 14px;
   color: #111;
 }
 .aboutus-section .right {
@@ -331,7 +375,7 @@ body {
   min-height: 75px;
 }
 .feature-list .feature-list-box h4 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #575757;
   margin-bottom: 0;
@@ -355,7 +399,7 @@ body {
   margin-right: auto;
 }
 .section-header h5 {
-  font-size: 18px;
+  font-size: 14px;
   color: #ee344e;
   position: relative;
   display: inline-block;
@@ -386,7 +430,7 @@ body {
 }
 .section-header .sub-title {
   color: #393939;
-  font-size: 17px;
+  font-size: 14px;
   margin: 15px auto 0;
   line-height: 1.42;
 }
@@ -400,20 +444,20 @@ body {
   margin-right: auto;
 }
 .testimonials .patient-details h5 {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
   color: #323030;
   margin-bottom: 5px;
 }
 .testimonials .patient-details h6 {
-  font-size: 16px;
+  font-size: 14px;
   color: #ee2e4f;
   font-weight: 500;
   margin-bottom: 0;
 }
 .testimonials .doct {
-  font-size: 17px;
+  font-size: 14px;
   line-height: 30px;
 }
 .card-body {
@@ -463,7 +507,7 @@ body {
   margin-bottom: 20px;
 }
 .choose-us .top-title span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #0168b3;
   font-family: "Poppins", sans-serif;
@@ -472,7 +516,7 @@ body {
   margin-right: 10px;
 }
 .choose-us .left p {
-  font-size: 17px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
 .blog-section {
@@ -510,13 +554,13 @@ body {
   background-color: #ee344e;
   border-radius: 8px;
   min-width: 206px;
-  height: 35px;
+
   color: #fff;
   display: inline-block;
   text-align: center;
   font-weight: 600;
   padding: 5px 10px;
-  font-size: 17px;
+  font-size: 14px;
 }
 .blog-widget .blog-content {
   background-color: #fff;
@@ -526,11 +570,11 @@ body {
 }
 .blog-widget .blog-content h6 {
   color: #ee344e;
-  font-size: 17px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 .blog-widget .blog-content h5 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 600;
   color: #2f2f2f;
   margin-bottom: 15px;
@@ -538,11 +582,11 @@ body {
 .blog-widget .blog-content p {
   color: #2f2f2f;
   margin-bottom: 5px;
-  font-size: 17px;
+  font-size: 14px;
 }
 .readmore-btn {
   color: #273353;
-  font-size: 18px;
+  font-size: 14px;
   display: inline-block;
   margin-top: 13px;
 }
@@ -574,18 +618,18 @@ body {
   border-radius: 90px;
 }
 .pro-content h5 {
-  font-size: 17px;
+  font-size: 14px;
   color: #ee344e;
   font-weight: 500;
 }
 .pro-content .title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 15px;
   color: #0168b3;
 }
 .pro-content .speciality {
-  font-size: 17px;
+  font-size: 14px;
 }
 .profile-widget p.speciality {
   font-size: 14px;
@@ -627,7 +671,7 @@ a:hover {
 }
 .footer .footer-widget .footer-about-content p {
   color: #fff;
-  font-size: 18px !important;
+  font-size: 14px !important;
   margin-bottom: 35px;
 }
 .footer .social-icon ul {
@@ -654,7 +698,7 @@ a:hover {
 }
 .footer-title {
   color: #fff;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 30px;
   text-transform: capitalize;
@@ -671,7 +715,7 @@ a:hover {
 }
 .footer .footer-menu ul li a {
   color: #fff;
-  font-size: 17px;
+  font-size: 14px;
   padding-left: 10px;
   position: relative;
   transition: all 0.4s ease 0s;
@@ -750,10 +794,10 @@ a:hover {
   width: 354px !important;
   padding: 0 7px;
 } */
-.react-multi-carousel-track li {
+/* .react-multi-carousel-track li {
   margin: 0 8px;
   width: 354px !important;
-}
+} */
 .popular-section {
   padding: 60px 0 40px;
   background-color: #fff5f5;
@@ -827,7 +871,7 @@ a:hover {
 }
 .header-contact-detail p.contact-header {
   color: #ee344e;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   margin-bottom: 2px;
   text-align: left;
@@ -836,7 +880,7 @@ a:hover {
 .header-contact-detail p.contact-info-header {
   color: #000;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
 }
@@ -845,7 +889,7 @@ a:hover {
   border-radius: 10px;
   padding: 10px 15px !important;
   text-align: center;
-  font-size: 17px;
+  font-size: 14px;
   color: #fff !important;
   text-transform: uppercase;
   font-weight: 500;
@@ -900,7 +944,7 @@ a:hover {
 }
 .header .navbar .navbar-collapse ul li {
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 14px;
 }
 .search-section {
   font-family: "Poppins", sans-serif;
@@ -997,14 +1041,14 @@ a:hover {
   overflow: hidden;
 }
 .profile-det-info h3 {
-  font-size: 22px;
+  font-size: 18px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 .patient-details h5 {
   color: #757575;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: normal;
   margin-bottom: 8px;
   overflow: hidden;
@@ -1013,7 +1057,7 @@ a:hover {
 }
 .dashboard-menu ul {
   color: #757575;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 17px;
   list-style: none;
   margin: 0;
@@ -1053,7 +1097,7 @@ a:hover {
   padding: 18px 0.75rem;
   white-space: nowrap;
   vertical-align: middle;
-  font-size: 17px;
+  font-size: 14px;
 }
 .dashboard-menu > ul > li > a {
   color: #757575;
@@ -1103,7 +1147,7 @@ a:hover {
   justify-content: space-evenly;
 }
 .table-action a {
-  font-size: 18px;
+  font-size: 13px;
 }
 .card-table {
   font-size: 15px;
@@ -1127,16 +1171,17 @@ a:hover {
   transform: translateY(-50%);
 }
 .dash-widget h6 {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 .dash-widget h3 {
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 5px;
+  margin-top: 0;
 }
 .dash-widget p {
   color: #757575;
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: 0;
 }
 .appointment-tab {
@@ -1160,7 +1205,7 @@ a:hover {
 }
 .nav-tabs.nav-tabs-solid.nav-tabs-rounded > li > a {
   border-radius: 50px;
-  font-size: 18px;
+  font-size: 14px;
 }
 .tab-content {
   padding-top: 20px;
@@ -1192,7 +1237,7 @@ a:hover {
 .card-table .card-body .table > thead > tr > th {
   border-top: none !important;
   border-bottom: none;
-  font-size: 18px;
+  font-size: 15px;
 }
 .card {
   border: 1px solid #f0f0f0;
@@ -1230,7 +1275,7 @@ table.table td h2 a {
 table.table td h2 span {
   color: #888;
   display: block;
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 3px;
 }
 .card-table .table tr td:last-child,
@@ -1260,7 +1305,7 @@ table.table td h2 span {
   height: 7rem;
 }
 .appointment-tab .tab-content .table-avatar .pname {
-  font-size: 17px;
+  font-size: 14px;
 }
 .text-info,
 .dropdown-menu > li > a.text-info {
@@ -1479,7 +1524,7 @@ table.table td h2 span {
   display: inline-flex;
 }
 .appointment-action a {
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .appointment-action a + a {
@@ -1501,7 +1546,7 @@ table.table td h2 span {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
 }
-.time .card .label {
+.time .card label {
   color: #757575;
   font-size: 15px;
   font-weight: normal;
@@ -1513,10 +1558,11 @@ table.table td h2 span {
 .time .card select {
   border-color: #dce0eb;
   color: #26292c;
-  font-size: 19px;
+  font-size: 15px;
   min-height: 42px;
   padding: 0px 15px;
 }
+
 .time .card .form-control {
   height: 50px;
 }
@@ -1524,8 +1570,235 @@ table.table td h2 span {
   display: flex;
   justify-content: space-around;
 }
+.time .ant-tabs-tab {
+  border: 1px solid #dcddea;
+  border-radius: 4px;
+  padding: 6px 0px;
+  text-transform: uppercase;
+  width: 111px;
+}
+.time .ant-tabs-tab-active {
+  background: #1e88e5;
+  border: 1px solid #1e88e5 !important;
+  color: #fff !important;
+}
+.time .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+}
+.time .ant-tabs-tab-active:hover {
+  background-color: #1e88e5 !important;
+  border: 1px solid #1e88e5 !important;
+  color: #fff !important;
+}
+.time .ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before {
+  bottom: -15px;
+}
+.time .ant-tabs-content-holder {
+  margin-top: 10px;
+}
+.time .ant-tabs-content-holder button {
+  color: #1e88e5;
+  font-size: 16px;
+  margin-top: 4px;
+  background: none;
+  border: none;
+}
+.time .ant-tabs {
+  border: 1px solid #e3e8eb;
+  padding: 15px;
+}
+.time .ant-tabs-tab:hover {
+  background-color: #ddd;
+  color: black;
+}
+.time .ant-tabs-tab {
+  margin: 0 15px 0 0;
+}
+.time .ant-tabs-tab-btn {
+  margin: auto;
+}
 /* ==========================================end of time schedual================================================ */
+/* ==========================================start of profile setting============================================ */
 
+.profile .card {
+  border: 1px solid #e3e8eb;
+  margin-bottom: 1.875rem;
+  border-radius: 0;
+}
+.profile .card-body {
+  padding: 1.5rem;
+}
+.profile .change-avatar {
+  display: flex;
+  align-items: center;
+}
+.profile .change-avatar .profile-img {
+  margin-right: 15px;
+}
+.profile .change-avatar .profile-img img {
+  border-radius: 4px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.profile .change-avatar .change-photo-btn {
+  margin: 0 0 10px;
+  width: 150px;
+  background-color: #ee344e;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 10px 15px;
+  position: relative;
+  transition: 0.3s;
+  text-align: center;
+  width: 220px;
+}
+.profile .change-photo-btn input.upload {
+  bottom: 0;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 220px;
+}
+.profile .card .form-group label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.profile .card .form-group input {
+  font-weight: 600;
+  border-color: #dce0eb;
+  color: #26292c;
+  font-size: 15px;
+  min-height: 42px;
+  padding: 6px 15px;
+}
+.profile .card .form-group select {
+  font-weight: 600;
+  border-color: #dce0eb;
+  color: #26292c;
+  font-size: 15px;
+  min-height: 42px;
+  padding: 6px 15px;
+}
+.profile .card .submit-section button {
+  padding: 12px 30px;
+  font-weight: 600;
+  font-size: 16px;
+  min-width: 120px;
+  background-color: #ee344e;
+  color: white;
+}
+/* ==========================================end of profile setting============================================ */
+/* ==========================================start of registration============================================ */
+.registration {
+  padding: 50px 0;
+}
+.registration .account-content .login-header {
+  margin-bottom: 20px;
+}
+.registration .account-content .login-header h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.registration .account-content .login-header a {
+  float: right;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+.registration .account-content .form-group input {
+  height: 54px;
+  padding: 6px 17px 6px;
+  font-size: 16px;
+  font-weight: 400;
+  pointer-events: none;
+  color: #d4d4d4;
+}
+.registration .account-content form .forgot-link {
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid;
+}
+.registration .account-content form button {
+  background-color: #0369b3;
+  color: white;
+}
+.registration .account-content form button:hover {
+  background-color: #ee344e !important;
+}
+.registration .account-content form .login-or {
+  color: #d4d4d4;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+.registration .account-content form .login-or span.or-line {
+  background-color: #e5e5e5;
+  height: 1px;
+  margin-bottom: 0;
+  margin-top: 0;
+  display: block;
+}
+.registration .account-content form .login-or span.span-or {
+  background-color: #fff;
+  display: block;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  text-align: center;
+  top: -3px;
+  width: 42px;
+}
+.registration .account-content form .btn-facebook {
+  background-color: #3a559f;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 12px;
+}
+.registration .account-content form .btn-facebook:hover {
+  color: #fff !important;
+}
+.registration .account-content form .btn-google:hover {
+  color: #fff !important;
+}
+.registration .account-content form .btn-google {
+  background-color: #dd4b39;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 12px;
+}
+/* ==========================================end of registration============================================ */
+
+/* ==========================================end of Booking============================================ */
+.booking .card .yellow {
+  background-color: #fba20a;
+  border-radius: 4px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 3px 10px;
+}
+
+/* ==========================================end of Booking============================================ */
 /* ============================media query============================== */
 
 @media only screen and (max-width: 768px) {
@@ -1589,7 +1862,7 @@ table.table td h2 span {
   .section-header h5,
   .testimonials .patient-details h5,
   .choose-us .top-title span {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 991.98px) {
@@ -1641,5 +1914,15 @@ table.table td h2 span {
 @media only screen and (max-width: 990px) {
   .progress {
     margin-bottom: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575.98px) {
+}
+@media (max-width: 1050px) {
+  .header .navbar-header .navbar-toggle {
+    background-color: #ee344e;
+  }
+  .header .navbar-header .navbar-toggle .icon-bar {
+    background-color: #fff;
   }
 }

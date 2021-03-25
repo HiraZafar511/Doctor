@@ -1,21 +1,21 @@
 const Choose = () => {
   return (
-    <div class="choose-us">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <div class="left">
-              <div class="section-header">
+    <div className="choose-us">
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-lg-6">
+            <div className="left">
+              <div className="section-header">
                 <h5>OUR BENEFITS</h5>
                 <h2>
                   Choose Our Cardiology <br />
                   Healthcare Solutions
                 </h2>
               </div>
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <div class="choose-col">
-                    <div class="top-title d-flex align-items-center">
+              <div className="row">
+                <div className="col-12 col-lg-6">
+                  <div className="choose-col">
+                    <div className="top-title d-flex align-items-center">
                       <span>
                         <img src="/images/check-mark.png" alt="" />
                       </span>
@@ -28,9 +28,9 @@ const Choose = () => {
                     </p>
                   </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                  <div class="choose-col">
-                    <div class="top-title d-flex align-items-center">
+                <div className="col-12 col-lg-6">
+                  <div className="choose-col">
+                    <div className="top-title d-flex align-items-center">
                       <span>
                         <img src="/images/check-mark.png" alt="" />
                       </span>
@@ -43,9 +43,9 @@ const Choose = () => {
                     </p>
                   </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                  <div class="choose-col">
-                    <div class="top-title d-flex align-items-center">
+                <div className="col-12 col-lg-6">
+                  <div className="choose-col">
+                    <div className="top-title d-flex align-items-center">
                       <span>
                         <img src="/images/check-mark.png" alt="" />
                       </span>
@@ -58,9 +58,9 @@ const Choose = () => {
                     </p>
                   </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                  <div class="choose-col">
-                    <div class="top-title d-flex align-items-center">
+                <div className="col-12 col-lg-6">
+                  <div className="choose-col">
+                    <div className="top-title d-flex align-items-center">
                       <span>
                         <img src="/images/check-mark.png" alt="" />
                       </span>
@@ -76,8 +76,8 @@ const Choose = () => {
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6">
-            <div class="right"></div>
+          <div className="col-12 col-lg-6">
+            <div className="right"></div>
           </div>
         </div>
       </div>

@@ -51,26 +51,26 @@ const Heart = () => {
     },
   ]);
   return (
-    <div class="testimonials">
-      <div class="container">
-        <div class="section-header text-center">
+    <div className="testimonials">
+      <div className="container">
+        <div className="section-header text-center">
           <h5>TESTIMONIALS</h5>
           <h2>What Patient say about us</h2>
-          <p class="sub-title">
+          <p className="sub-title">
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took
           </p>
         </div>
-        <div class="row">
-          <div class="col-12">
+        <div className="row">
+          <div className="col-12">
             <Carousel
               responsive={responsive}
               infinite={true}
               transitionDuration={500}
-              containerClass="carousel-container"
+              containerclassName="carousel-container"
               removeArrowOnDeviceType={["tablet", "mobile"]}
-              dotListClass="custom-dot-list-style"
-              itemClass="carousel-item-padding-40-px"
+              dotListclassName="custom-dot-list-style"
+              itemclassName="carousel-item-padding-40-px"
               renderButtonGroupOutside={true}
               showDots={true}
             >

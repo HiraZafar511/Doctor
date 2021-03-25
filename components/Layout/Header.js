@@ -2,36 +2,36 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div className="header">
-      <nav class="navbar ">
-        <div class="container-fluid wrap">
-          <div class="navbar-header">
+      <nav className="navbar ">
+        <div className="container-fluid wrap">
+          <div className="navbar-header">
             <button
               type="button"
-              class="navbar-toggle"
+              className="navbar-toggle"
               data-toggle="collapse"
               data-target="#myNavbar"
             >
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a className="navbar-brand" href="#">
               <img src="/images/logo.png" />
             </a>
           </div>
-          <div class="collapse navbar-collapse pad" id="myNavbar">
-            <ul class="nav navbar-nav flex-D">
-              <li class="active">
+          <div className="collapse navbar-collapse pad" id="myNavbar">
+            <ul className="nav navbar-nav flex-D">
+              <li className="active">
                 <Link href="/">
                   <a href="#">Home</a>
                 </Link>
               </li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Doctors <i class="fas fa-chevron-down"></i>
+              <li className="dropdown">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                  Doctors <i className="fas fa-chevron-down"></i>
                 </a>
 
-                <ul class="dropdown-menu ">
+                <ul className="dropdown-menu ">
                   <li className="hove">
                     <Link href="/dashboard">
                       <a href="#">Doctor Dashboard</a>
@@ -43,7 +43,9 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="hove">
-                    <a href="#">Schedule Timing</a>
+                    <Link href="/schedual">
+                      <a href="#">Schedule Timing</a>
+                    </Link>
                   </li>
                   <li className="hove">
                     <a href="#">Patient List</a>
@@ -52,32 +54,38 @@ const Header = () => {
                     <a href="#">Patients Profile</a>
                   </li>
                   <li className="hove">
-                    <a href="#">Chat</a>
+                    <a href="#">Booking</a>
                   </li>
+
                   <li className="hove">
-                    <a href="#">Invoices</a>
-                  </li>
-                  <li className="hove">
-                    <a href="#">Profile Setting</a>
+                    <Link href="/profileSetting">
+                      <a href="#">Profile Setting</a>
+                    </Link>
                   </li>
                   <li className="hove">
                     <a href="#">Reviews</a>
                   </li>
                   <li className="hove">
-                    <a href="#">Doctor Register</a>
+                    <Link href="/registration">
+                      <a href="#">Doctor Register</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Patients <i class="fas fa-chevron-down"></i>
+              <li className="dropdown">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                  Patients <i className="fas fa-chevron-down"></i>
                 </a>
-                <ul class="dropdown-menu ">
-                  <li class="dropdown hove">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                      Doctors <i class="fas fa-chevron-right"></i>
+                <ul className="dropdown-menu ">
+                  <li className="dropdown hove">
+                    <a
+                      className="dropdown-toggle"
+                      data-toggle="dropdown"
+                      href="#"
+                    >
+                      Doctors <i className="fas fa-chevron-right"></i>
                     </a>
-                    <ul class="dropdown-menu ">
+                    <ul className="dropdown-menu ">
                       <li className="hove">
                         <a href="#">Map Grip</a>
                       </li>
@@ -93,7 +101,9 @@ const Header = () => {
                     <a href="doctor-profile.html">Doctor Profile</a>
                   </li>
                   <li className="hove">
-                    <a href="booking.html">Booking</a>
+                    <Link href="/booking">
+                      <a href="booking.html">Booking</a>
+                    </Link>
                   </li>
                   <li className="hove">
                     <a href="checkout.html">Checkout</a>
@@ -119,11 +129,11 @@ const Header = () => {
                 </ul>
               </li>
 
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Pages <i class="fas fa-chevron-down"></i>
+              <li className="dropdown">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                  Pages <i className="fas fa-chevron-down"></i>
                 </a>
-                <ul class="dropdown-menu ">
+                <ul className="dropdown-menu ">
                   <li className="hove">
                     <a href="voice-call.html">Voice Call</a>
                   </li>
@@ -139,11 +149,15 @@ const Header = () => {
                   <li className="hove">
                     <a href="components.html">Components</a>
                   </li>
-                  <li class="dropdown hove">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                      Invoices <i class="fas fa-chevron-right"></i>
+                  <li className="dropdown hove">
+                    <a
+                      className="dropdown-toggle"
+                      data-toggle="dropdown"
+                      href="#"
+                    >
+                      Invoices <i className="fas fa-chevron-right"></i>
                     </a>
-                    <ul class="dropdown-menu ">
+                    <ul className="dropdown-menu ">
                       <li className="hove">
                         <a href="#">Invoices</a>
                       </li>
@@ -166,11 +180,11 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-              <li class="dropdown ">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Blog <i class="fas fa-chevron-down"></i>
+              <li className="dropdown ">
+                <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                  Blog <i className="fas fa-chevron-down"></i>
                 </a>
-                <ul class="dropdown-menu ">
+                <ul className="dropdown-menu ">
                   <li className="hove">
                     <a href="#">Blog List</a>
                   </li>
@@ -199,7 +213,9 @@ const Header = () => {
                     <a href="#">Reviews</a>
                   </li>
                   <li className="hove">
-                    <a href="#">Doctor Register</a>
+                    <Link href="/registration">
+                      <a href="#">Doctor Register</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -207,18 +223,18 @@ const Header = () => {
                 <a href="#">Admin</a>
               </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right flex-D log">
-              <li class="nav-item contact-item">
-                <div class="header-contact-img">
-                  <i class="far fa-hospital"></i>
+            <ul className="nav navbar-nav navbar-right flex-D log">
+              <li className="nav-item contact-item">
+                <div className="header-contact-img">
+                  <i className="far fa-hospital"></i>
                 </div>
-                <div class="header-contact-detail">
-                  <p class="contact-header">Contact</p>
-                  <p class="contact-info-header"> +1 315 369 5943</p>
+                <div className="header-contact-detail">
+                  <p className="contact-header">Contact</p>
+                  <p className="contact-info-header"> +1 315 369 5943</p>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link header-login" href="login.html">
+              <li className="nav-item">
+                <a className="nav-link header-login" href="login.html">
                   login / Signup
                 </a>
               </li>

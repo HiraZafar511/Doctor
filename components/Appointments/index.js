@@ -1,4 +1,4 @@
-import Breadcrumb from "../Breadcrumb/Breadcrumb";
+import Breadcrumb from "../Combine/Breadcrumb/Breadcrumb";
 import Appoint from "./Appoint";
 
 const index = () => {

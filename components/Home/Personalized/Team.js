@@ -14,11 +14,11 @@ const Team = () => {
     { num: "04", img: "icon4.png", title1: " Latest", title2: " Technology" },
   ]);
   return (
-    <div class="feature-list">
-      <div class="container">
-        <div class="row">
+    <div className="feature-list">
+      <div className="container">
+        <div className="row">
           {team.map((item, key) => (
-            <div class="col-12 col-md-6 col-lg-3">
+            <div className="col-12 col-md-6 col-lg-3">
               <TeamPro item={item} />
             </div>
           ))}

@@ -1,11 +1,11 @@
 const Archieve = () => {
   return (
-    <div class="section aboutus-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-lg-6">
-            <div class="left">
-              <div class="section-header">
+    <div className="section aboutus-section">
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-lg-6">
+            <div className="left">
+              <div className="section-header">
                 <h5>WHY CHOOSE US</h5>
                 <h2>
                   We are Achieve the Success of <span>Heart Surgery</span>
@@ -23,19 +23,19 @@ const Archieve = () => {
                 publishing software like Aldus PageMaker including versions of
                 Lorem Ipsum.
               </p>
-              <div class="feature-col row">
-                <div class="col-12 col-md-6">
-                  <div class="feature-box">
-                    <div class="corner-img">
+              <div className="feature-col row">
+                <div className="col-12 col-md-6">
+                  <div className="feature-box">
+                    <div className="corner-img">
                       <img src="/images/feature1.png" alt="" />
                     </div>
                     <h2>870+</h2>
                     <h6>Satisfied Patients</h6>
                   </div>
                 </div>
-                <div class="col-12 col-md-6">
-                  <div class="feature-box">
-                    <div class="corner-img">
+                <div className="col-12 col-md-6">
+                  <div className="feature-box">
+                    <div className="corner-img">
                       <img src="/images/feature2.png" alt="" />
                     </div>
                     <h2>1500+</h2>
@@ -45,8 +45,8 @@ const Archieve = () => {
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6">
-            <div class="right">
+          <div className="col-12 col-lg-6">
+            <div className="right">
               <img src="/images/about-us.png" alt="" />
             </div>
           </div>

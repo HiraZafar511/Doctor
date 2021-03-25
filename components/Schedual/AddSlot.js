@@ -35,7 +35,7 @@ const Slot = () => {
   return (
     <>
       <button variant="primary" onClick={() => setModalShow(true)}>
-        <i class="fa fa-plus-circle"></i> Add Slot
+        <i className="fa fa-plus-circle"></i> Add Slot
       </button>
 
       <MyVerticallyCenteredModal

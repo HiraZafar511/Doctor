@@ -11,12 +11,12 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 3,
     };
     return (
-      <div class="section popular-section">
-        <div class="container">
-          <div class="section-header text-center">
+      <div className="section popular-section">
+        <div className="container">
+          <div className="section-header text-center">
             <h5>WHAT WE HAVE</h5>
             <h2>Heart Care based Solutions</h2>
-            <p class="sub-title">
+            <p className="sub-title">
               We merge two services consulting and brilliant client Services for
               the patient healthcare. Used latest technology in hospital.
             </p>
@@ -24,127 +24,147 @@ export default class SimpleSlider extends Component {
 
           <Slider {...settings}>
             <div className="card-heart">
-              <div class="doc-img">
+              <div className="doc-img">
                 <a href="#" tabindex="0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     alt="User Image"
                     src="/images/solution1.png"
                   />
                 </a>
               </div>
-              <div class="pro-content">
-                <div class="specialities-img">
+              <div className="pro-content">
+                <div className="specialities-img">
                   <img src="/images/specialities-01.png" alt="" />
                 </div>
                 <h5>SURGERY</h5>
-                <h3 class="title">Heart Surgery</h3>
-                <p class="speciality">
+                <h3 className="title">Heart Surgery</h3>
+                <p className="speciality">
                   Lorem Ipsum is simply dummy text the printing and typesetting
                   industry.{" "}
                 </p>
-                <a href="doctor-profile.html" class="readmore-btn" tabindex="0">
-                  <i class="fas fa-chevron-circle-right"></i> Read more
+                <a
+                  href="doctor-profile.html"
+                  className="readmore-btn"
+                  tabindex="0"
+                >
+                  <i className="fas fa-chevron-circle-right"></i> Read more
                 </a>
               </div>
             </div>
             <div className="card-heart">
-              <div class="doc-img">
+              <div className="doc-img">
                 <a href="#" tabindex="0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     alt="User Image"
                     src="/images/solution1.png"
                   />
                 </a>
               </div>
-              <div class="pro-content">
-                <div class="specialities-img">
+              <div className="pro-content">
+                <div className="specialities-img">
                   <img src="/images/specialities-01.png" alt="" />
                 </div>
                 <h5>SURGERY</h5>
-                <h3 class="title">Heart Surgery</h3>
-                <p class="speciality">
+                <h3 className="title">Heart Surgery</h3>
+                <p className="speciality">
                   Lorem Ipsum is simply dummy text the printing and typesetting
                   industry.{" "}
                 </p>
-                <a href="doctor-profile.html" class="readmore-btn" tabindex="0">
-                  <i class="fas fa-chevron-circle-right"></i> Read more
+                <a
+                  href="doctor-profile.html"
+                  className="readmore-btn"
+                  tabindex="0"
+                >
+                  <i className="fas fa-chevron-circle-right"></i> Read more
                 </a>
               </div>
             </div>
             <div className="card-heart">
-              <div class="doc-img">
+              <div className="doc-img">
                 <a href="#" tabindex="0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     alt="User Image"
                     src="/images/solution1.png"
                   />
                 </a>
               </div>
-              <div class="pro-content">
-                <div class="specialities-img">
+              <div className="pro-content">
+                <div className="specialities-img">
                   <img src="/images/specialities-01.png" alt="" />
                 </div>
                 <h5>SURGERY</h5>
-                <h3 class="title">Heart Surgery</h3>
-                <p class="speciality">
+                <h3 className="title">Heart Surgery</h3>
+                <p className="speciality">
                   Lorem Ipsum is simply dummy text the printing and typesetting
                   industry.{" "}
                 </p>
-                <a href="doctor-profile.html" class="readmore-btn" tabindex="0">
-                  <i class="fas fa-chevron-circle-right"></i> Read more
+                <a
+                  href="doctor-profile.html"
+                  className="readmore-btn"
+                  tabindex="0"
+                >
+                  <i className="fas fa-chevron-circle-right"></i> Read more
                 </a>
               </div>
             </div>
             <div className="card-heart">
-              <div class="doc-img">
+              <div className="doc-img">
                 <a href="#" tabindex="0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     alt="User Image"
                     src="/images/solution1.png"
                   />
                 </a>
               </div>
-              <div class="pro-content">
-                <div class="specialities-img">
+              <div className="pro-content">
+                <div className="specialities-img">
                   <img src="/images/specialities-01.png" alt="" />
                 </div>
                 <h5>SURGERY</h5>
-                <h3 class="title">Heart Surgery</h3>
-                <p class="speciality">
+                <h3 className="title">Heart Surgery</h3>
+                <p className="speciality">
                   Lorem Ipsum is simply dummy text the printing and typesetting
                   industry.{" "}
                 </p>
-                <a href="doctor-profile.html" class="readmore-btn" tabindex="0">
-                  <i class="fas fa-chevron-circle-right"></i> Read more
+                <a
+                  href="doctor-profile.html"
+                  className="readmore-btn"
+                  tabindex="0"
+                >
+                  <i className="fas fa-chevron-circle-right"></i> Read more
                 </a>
               </div>
             </div>
             <div className="card-heart">
-              <div class="doc-img">
+              <div className="doc-img">
                 <a href="#" tabindex="0">
                   <img
-                    class="img-fluid"
+                    className="img-fluid"
                     alt="User Image"
                     src="/images/solution1.png"
                   />
                 </a>
               </div>
-              <div class="pro-content">
-                <div class="specialities-img">
+              <div className="pro-content">
+                <div className="specialities-img">
                   <img src="/images/specialities-01.png" alt="" />
                 </div>
                 <h5>SURGERY</h5>
-                <h3 class="title">Heart Surgery</h3>
-                <p class="speciality">
+                <h3 className="title">Heart Surgery</h3>
+                <p className="speciality">
                   Lorem Ipsum is simply dummy text the printing and typesetting
                   industry.{" "}
                 </p>
-                <a href="doctor-profile.html" class="readmore-btn" tabindex="0">
-                  <i class="fas fa-chevron-circle-right"></i> Read more
+                <a
+                  href="doctor-profile.html"
+                  className="readmore-btn"
+                  tabindex="0"
+                >
+                  <i className="fas fa-chevron-circle-right"></i> Read more
                 </a>
               </div>
             </div>

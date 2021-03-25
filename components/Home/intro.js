@@ -1,12 +1,12 @@
 const Intro = () => {
   return (
-    <div class="section section-banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6"></div>
-          <div class="col-12 col-md-6">
-            <div class="banner-wrapper">
-              <div class="banner-header">
+    <div className="section section-banner">
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-md-6"></div>
+          <div className="col-12 col-md-6">
+            <div className="banner-wrapper">
+              <div className="banner-header">
                 <h5>Be Hear Healthy</h5>
                 <h1>
                   Lorem Ipsum <br />
@@ -17,15 +17,15 @@ const Intro = () => {
                   typesetting industry. Lorem Ipsum has been the indstandard
                   dummy text ever
                 </p>
-                <div class="btn-col">
+                <div className="btn-col">
                   <ul>
                     <li>
-                      <a href="search.html" class="btn btn-fill">
+                      <a href="search.html" className="btn btn-fill">
                         Read More
                       </a>
                     </li>
                     <li>
-                      <a href="login.html" class="btn btn-notfill">
+                      <a href="login.html" className="btn btn-notfill">
                         Contact Us
                       </a>
                     </li>

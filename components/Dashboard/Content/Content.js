@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Dashcard from "./Dashcard";
-import Side from "../../Sidebar/Side";
+import Side from "../../Combine/Sidebar/Side";
 
 const Content = () => {
   const [card, setCard] = useState([
@@ -72,89 +72,89 @@ const Content = () => {
           <div className="col-md-5 col-lg-4 col-xl-3 theiaStickySidebar">
             <Side />
           </div>
-          <div class="col-md-7 col-lg-8 col-xl-9">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="card dash-card">
-                  <div class="card-body">
-                    <div class="row">
-                      <div class="col-md-12 col-lg-4 bts">
-                        <div class="dash-widget dct-border-rht">
-                          <div class="circle-bar circle-bar1">
-                            <div class="circle-graph1" data-percent="75">
-                              <div class="progress blue">
-                                <span class="progress-left">
-                                  <span class="progress-bar"></span>
+          <div className="col-md-7 col-lg-8 col-xl-9">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="card dash-card">
+                  <div className="card-body">
+                    <div className="row">
+                      <div className="col-md-12 col-lg-4 bts">
+                        <div className="dash-widget dct-border-rht">
+                          <div className="circle-bar circle-bar1">
+                            <div className="circle-graph1" data-percent="75">
+                              <div className="progress blue">
+                                <span className="progress-left">
+                                  <span className="progress-bar"></span>
                                 </span>
-                                <span class="progress-right">
-                                  <span class="progress-bar"></span>
+                                <span className="progress-right">
+                                  <span className="progress-bar"></span>
                                 </span>
                                 <img
                                   src="/images/icon-01.png"
-                                  class="img-fluid"
+                                  className="img-fluid"
                                   alt="patient"
                                 />
                               </div>
                             </div>
                           </div>
-                          <div class="dash-widget-info">
+                          <div className="dash-widget-info">
                             <h6>Total Patient</h6>
                             <h3>1500</h3>
-                            <p class="text-muted">Till Today</p>
+                            <p className="text-muted">Till Today</p>
                           </div>
                         </div>
                       </div>
 
-                      <div class="col-md-12 col-lg-4 bts">
-                        <div class="dash-widget dct-border-rht">
-                          <div class="circle-bar circle-bar2">
-                            <div class="circle-graph2" data-percent="65">
-                              <div class="progress blue">
-                                <span class="progress-left">
-                                  <span class="progress-bar"></span>
+                      <div className="col-md-12 col-lg-4 bts">
+                        <div className="dash-widget dct-border-rht">
+                          <div className="circle-bar circle-bar2">
+                            <div className="circle-graph2" data-percent="65">
+                              <div className="progress blue">
+                                <span className="progress-left">
+                                  <span className="progress-bar"></span>
                                 </span>
-                                <span class="progress-right">
-                                  <span class="progress-bar"></span>
+                                <span className="progress-right">
+                                  <span className="progress-bar"></span>
                                 </span>
                                 <img
                                   src="/images/icon-02.png"
-                                  class="img-fluid"
+                                  className="img-fluid"
                                   alt="Patient"
                                 />
                               </div>
                             </div>
                           </div>
-                          <div class="dash-widget-info">
+                          <div className="dash-widget-info">
                             <h6>Today Patient</h6>
                             <h3>160</h3>
-                            <p class="text-muted">06, Nov 2019</p>
+                            <p className="text-muted">06, Nov 2019</p>
                           </div>
                         </div>
                       </div>
 
-                      <div class="col-md-12 col-lg-4 bts">
-                        <div class="dash-widget dct-flex">
-                          <div class="circle-bar circle-bar3">
-                            <div class="circle-graph3" data-percent="50">
-                              <div class="progress blue">
-                                <span class="progress-left">
-                                  <span class="progress-bar"></span>
+                      <div className="col-md-12 col-lg-4 bts">
+                        <div className="dash-widget dct-flex">
+                          <div className="circle-bar circle-bar3">
+                            <div className="circle-graph3" data-percent="50">
+                              <div className="progress blue">
+                                <span className="progress-left">
+                                  <span className="progress-bar"></span>
                                 </span>
-                                <span class="progress-right">
-                                  <span class="progress-bar"></span>
+                                <span className="progress-right">
+                                  <span className="progress-bar"></span>
                                 </span>
                                 <img
                                   src="/images/icon-03.png"
-                                  class="img-fluid"
+                                  className="img-fluid"
                                   alt="Patient"
                                 />
                               </div>
                             </div>
                           </div>
-                          <div class="dash-widget-info">
+                          <div className="dash-widget-info">
                             <h6>Appoinments</h6>
                             <h3>85</h3>
-                            <p class="text-muted">06, Apr 2019</p>
+                            <p className="text-muted">06, Apr 2019</p>
                           </div>
                         </div>
                       </div>
@@ -164,23 +164,23 @@ const Content = () => {
               </div>
             </div>
 
-            <div class="row fnt">
-              <div class="col-md-12">
-                <h4 class=" vb">Patient Appoinment</h4>
-                <div class="appointment-tab">
-                  <ul class="nav nav-tabs nav-tabs-solid nav-tabs-rounded">
-                    <li class="nav-item">
+            <div className="row fnt">
+              <div className="col-md-12">
+                <h4 className=" vb">Patient Appoinment</h4>
+                <div className="appointment-tab">
+                  <ul className="nav nav-tabs nav-tabs-solid nav-tabs-rounded">
+                    <li className="nav-item">
                       <a
-                        class="nav-link active"
+                        className="nav-link active"
                         href="#upcoming-appointments"
                         data-toggle="tab"
                       >
                         Upcoming
                       </a>
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                       <a
-                        class="nav-link"
+                        className="nav-link"
                         href="#today-appointments"
                         data-toggle="tab"
                       >
@@ -188,22 +188,22 @@ const Content = () => {
                       </a>
                     </li>
                   </ul>
-                  <div class="tab-content">
+                  <div className="tab-content">
                     <div
-                      class="tab-pane show active"
+                      className="tab-pane show active"
                       id="upcoming-appointments"
                     >
-                      <div class="card card-table mb-0">
-                        <div class="card-body">
-                          <div class="table-responsive">
-                            <table class="table table-hover table-center mb-0">
+                      <div className="card card-table mb-0">
+                        <div className="card-body">
+                          <div className="table-responsive">
+                            <table className="table table-hover table-center mb-0">
                               <thead>
                                 <tr>
                                   <th>Patient Name</th>
                                   <th>Appt Date</th>
                                   <th>Purpose</th>
                                   <th>Type</th>
-                                  <th class="text-center">Paid Amount</th>
+                                  <th className="text-center">Paid Amount</th>
                                   <th></th>
                                 </tr>
                               </thead>

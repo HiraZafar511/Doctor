@@ -1,21 +1,21 @@
 const Caro = ({ item }) => {
   return (
     <div
-      class="testimonials-item"
+      className="testimonials-item"
       style={{ width: "100%", display: "inline-block" }}
     >
-      <div class="card">
-        <div class="card-header">
-          <div class="d-flex align-items-center justify-content-between">
-            <div class="">
+      <div className="card">
+        <div className="card-header">
+          <div className="d-flex align-items-center justify-content-between">
+            <div className="">
               <img
                 src={`/images/${item.img}`}
                 alt=""
                 width="83"
-                class="rounded-circle"
+                className="rounded-circle"
               />
             </div>
-            <div class="patient-details">
+            <div className="patient-details">
               <h5>{item.name}</h5>
               <h6>{item.illness}</h6>
             </div>
@@ -24,7 +24,7 @@ const Caro = ({ item }) => {
             </div>
           </div>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <p className="doct">{item.body}</p>
         </div>
       </div>
