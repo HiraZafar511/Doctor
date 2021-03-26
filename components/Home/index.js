@@ -6,7 +6,7 @@ import Team from "./Personalized/Team";
 import Test from "./Testimmonial/Test";
 import ChooseSol from "./ChooseSol";
 import Blog from "./blog";
-import Heart from "./HeartcareCaro/HeartCaro";
+
 import styles from "./Home.module.css";
 
 const Home = () => {

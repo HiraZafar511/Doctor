@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
 @import "~antd/dist/antd.css";
 
+a {
+  outline: none !important;
+}
+
 .breadcrumb-bar {
   background-color: #0369b3;
   padding: 15px 0;
@@ -186,6 +190,9 @@ body {
 .btn-col ul li:last-child {
   padding-right: 0;
 }
+.react-multi-carousel-dot button {
+  border-color: #0168b3 !important;
+}
 .btn-col ul li .btn.btn-notfill {
   color: #0e5087;
   border: 1px solid #0e5087;
@@ -211,8 +218,9 @@ body {
 }
 .card-heart {
   padding: 12px 12px;
-
+  border: 1px solid #f0f0f0;
   background-color: white;
+  box-shadow: 0 0 10px rgb(159 159 159 / 17%);
 }
 .testimonials .react-multi-carousel-item {
   margin-bottom: 40px;
@@ -609,7 +617,7 @@ body {
 }
 .specialities-img {
   position: absolute;
-  right: 20px;
+  right: 131px;
   top: -43px;
   z-index: 1;
 }

@@ -54,7 +54,9 @@ const Header = () => {
                     <a href="#">Patients Profile</a>
                   </li>
                   <li className="hove">
-                    <a href="#">Booking</a>
+                    <Link href="/booking">
+                      <a href="booking.html">Booking</a>
+                    </Link>
                   </li>
 
                   <li className="hove">

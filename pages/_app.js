@@ -1,7 +1,8 @@
 // import React from "react";
-// import { Provider } from "react-redux";
+ import { Provider } from "react-redux";
 // import withRedux from "next-redux-wrapper";
 // import store from "../store/configerStore";
+import store from "../store/configerStore"
 
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,7 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./home.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return <Provider store={store}><Component {...pageProps} /></Provider>;
 }
 
 export default MyApp;
