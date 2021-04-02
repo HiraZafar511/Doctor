@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useState } from "react";
-// import Heart from "./Heart";
+import Heart from "./Heart";
 
 import { useSelector, useDispatch } from "react-redux";
 const responsive = {
@@ -25,7 +25,6 @@ const HeartCaro = () => {
 
   const caro= useSelector((state)=>state.heartCareCaro.data);
   const dispatch= useDispatch();
-  console.log(caro);
   return (
     <div className="testimonials">
       <div className="container">
@@ -52,35 +51,7 @@ const HeartCaro = () => {
               LeftArrow={true}
             >
               {caro.map((item, key) => (
-                // <Heart item={item} />
-                <div className="card-heart">
-                <div className="doc-img">
-                  <a href="#" tabindex="0">
-                    <img
-                      className="img-fluid"
-                      alt="User Image"
-                      src="/images/solution1.png"
-                    />
-                  </a>
-                </div>
-                <div className="pro-content">
-                  <div className="specialities-img">
-                    <img src={`/images/${item.img}`} alt="" />
-                  </div>
-                  <h5>{item.category}</h5>
-                  <h3 className="title">{item.title}</h3>
-                  <p className="speciality">
-                    {item.body}
-                  </p>
-                  <a
-                    href="doctor-profile.html"
-                    className="readmore-btn"
-                    tabindex="0"
-                  >
-                    <i className="fas fa-chevron-circle-right"></i> Read more
-                  </a>
-                </div>
-              </div>
+                <Heart item={item} />
               ))}
             </Carousel>
           </div>

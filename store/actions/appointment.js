@@ -1,4 +1,4 @@
-const changeName = (dispatch) => {
-    dispatch({ type: "CHANGE" });
+const appoint = (dispatch) => {
+    dispatch({ type: "APPOINTMENT" });
   };
-  export default changeName;
+  export default appoint;

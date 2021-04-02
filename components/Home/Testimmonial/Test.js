@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useState } from "react";
 import CaroTest from "./CaroTest";
+import { useSelector, useDispatch } from "react-redux";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -20,36 +21,9 @@ const responsive = {
   },
 };
 const Heart = () => {
-  const [caro, setCaro] = useState([
-    {
-      img: "patient.jpg",
-      name: "Joseph Butler",
-      illness: "Heart Implant",
-      body:
-        " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem",
-    },
-    {
-      img: "patient1.jpg",
-      name: "Ana Butler",
-      illness: "Heart Implant",
-      body:
-        " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem",
-    },
-    {
-      img: "patient2.jpg",
-      name: "Ami Smith",
-      illness: "Heart Implant",
-      body:
-        " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem",
-    },
-    {
-      img: "patient5.jpg",
-      name: "James Smith",
-      illness: "Heart Implant",
-      body:
-        " It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem",
-    },
-  ]);
+  const testData = useSelector((state) => state.testimonial.data);
+  const dispatch = useDispatch();
+  
   return (
     <div className="testimonials">
       <div className="container">
@@ -74,7 +48,7 @@ const Heart = () => {
               renderButtonGroupOutside={true}
               showDots={true}
             >
-              {caro.map((item, key) => (
+              {testData.map((item, key) => (
                 <CaroTest item={item} />
               ))}
             </Carousel>

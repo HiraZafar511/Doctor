@@ -2,7 +2,8 @@
  import { Provider } from "react-redux";
 // import withRedux from "next-redux-wrapper";
 // import store from "../store/configerStore";
-import store from "../store/configerStore"
+import store from "../store/configerStore";
+
 
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";

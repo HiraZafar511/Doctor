@@ -48,7 +48,9 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="hove">
-                    <a href="#">Patient List</a>
+                    <Link href="/patientList">
+                      <a href="#">Patient List</a>
+                    </Link>
                   </li>
                   <li className="hove">
                     <a href="#">Patients Profile</a>
@@ -58,7 +60,6 @@ const Header = () => {
                       <a href="booking.html">Booking</a>
                     </Link>
                   </li>
-
                   <li className="hove">
                     <Link href="/profileSetting">
                       <a href="#">Profile Setting</a>
@@ -66,6 +67,11 @@ const Header = () => {
                   </li>
                   <li className="hove">
                     <a href="#">Reviews</a>
+                  </li>
+                  <li className="hove">
+                    <Link href="/invoices">
+                      <a href="#">Invoices</a>
+                    </Link>
                   </li>
                   <li className="hove">
                     <Link href="/registration">
@@ -89,10 +95,14 @@ const Header = () => {
                     </a>
                     <ul className="dropdown-menu ">
                       <li className="hove">
-                        <a href="#">Map Grip</a>
+                        <Link href="/mapGrid">
+                          <a href="#">Map Grip</a>
+                        </Link>
                       </li>
                       <li className="hove">
-                        <a href="#">Map List</a>
+                        <Link href="/mapList">
+                          <a href="#">Map List</a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -100,7 +110,9 @@ const Header = () => {
                     <a href="search.html">Search Doctor</a>
                   </li>
                   <li className="hove">
-                    <a href="doctor-profile.html">Doctor Profile</a>
+                    <Link href="/doctorProfile">
+                      <a href="#">Doctor Profile</a>
+                    </Link>
                   </li>
                   <li className="hove">
                     <Link href="/booking">
@@ -108,10 +120,14 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="hove">
-                    <a href="checkout.html">Checkout</a>
+                    <Link href="/checkout">
+                      <a href="#">Checkout</a>
+                    </Link>
                   </li>
                   <li className="hove">
-                    <a href="booking-success.html">Booking Success</a>
+                    <Link href="/bookingSuccess">
+                      <a href="#">Booking Success</a>
+                    </Link>
                   </li>
                   <li className="hove">
                     <a href="patient-dashboard.html">Patient Dashboard</a>
@@ -146,8 +162,11 @@ const Header = () => {
                     <a href="search.html">Search Doctors</a>
                   </li>
                   <li className="hove">
-                    <a href="calendar.html">Calendar</a>
+                    <Link href="/calender">
+                      <a href="#">Calendar</a>
+                    </Link>
                   </li>
+
                   <li className="hove">
                     <a href="components.html">Components</a>
                   </li>
@@ -161,10 +180,15 @@ const Header = () => {
                     </a>
                     <ul className="dropdown-menu ">
                       <li className="hove">
-                        <a href="#">Invoices</a>
+                        <Link href="/invoices">
+                          <a href="#">Invoices</a>
+                        </Link>
                       </li>
+
                       <li className="hove">
-                        <a href="#">Invoice View</a>
+                        <Link href="/invoiceView">
+                          <a href="#">Invoice View</a>
+                        </Link>
                       </li>
                     </ul>
                   </li>

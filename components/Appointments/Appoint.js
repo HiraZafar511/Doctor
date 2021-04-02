@@ -1,97 +1,11 @@
 import Side from "../Combine/Sidebar/Side";
 import { useState } from "react";
 import SubAppoint from "./SubAppoint";
+import { useSelector } from "react-redux";
 const Appoint = () => {
-  const [user, setUser] = useState([
-    {
-      img: "patient.jpg",
-      name: "George Anderson",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient1.jpg",
-      name: "Megan Bird ",
-      detail: "12 Nov 2019, 5.00 PM",
-      state: "North Carolina, United States",
-      email: "charlenereed@example.com",
-      num: "+1 828 632 9170",
-    },
-    {
-      img: "patient2.jpg",
-      name: "Alvin Boykin",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient3.jpg",
-      name: "Nicholas Hicks",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient4.jpg",
-      name: "Sherri McCarthy",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient5.jpg",
-      name: "Roger Loyd",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient6.jpg",
-      name: "Francis Giordano",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient7.jpg",
-      name: "Kate Mason",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient8.jpg",
-      name: "George Anderson",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient9.jpg",
-      name: "Glenn Johnson",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-    {
-      img: "patient10.jpg",
-      name: "Monty Smith",
-      detail: "14 Nov 2019, 10.00 AM",
-      state: "Newyork, United States",
-      email: "richard@example.com",
-      num: "+1 923 782 4575",
-    },
-  ]);
+
+const appointment= useSelector((state)=>state.appointment.data)
+
   return (
     <div className="container-fluid">
       <div className="row">
@@ -99,7 +13,7 @@ const Appoint = () => {
           <Side />
         </div>
         <div className="col-md-7 col-lg-8 col-xl-9">
-          {user.map((item, key) => (
+          {appointment.map((item, key) => (
             <SubAppoint item={item} />
           ))}
         </div>

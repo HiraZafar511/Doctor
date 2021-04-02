@@ -1,17 +1,28 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
-import { composeWithDevTools } from "redux-devtools-extension";
 
 import appointment from "./reducers/appointment";
 import schedual from "./reducers/schedual";
-import header from "./reducers/header";
-import heartCareCaro from "./reducers/heartCareCaro";
+import heartCareCaro from "./reducers/home/heartCareCaro";
+import testimonial from "./reducers/home/testimonial";
+import dashboard from "./reducers/dashboard";
+import booking from "./reducers/booking";
+import invoices from "./reducers/invoices";
+import mapGrid from "./reducers/mapGrid";
+import mapList from "./reducers/mapList";
+import patientList from "./reducers/patientList";
 
 const reducers = combineReducers({
-  header,
   heartCareCaro,
+  testimonial,
+  dashboard,
   appointment,
   schedual,
+  booking,
+  invoices,
+  mapGrid,
+  mapList,
+  patientList,
 });
 
 // export const initStore = (initialState = {}) => {
@@ -21,5 +32,5 @@ const reducers = combineReducers({
 //     composeWithDevTools(applyMiddleware(thunk))
 //   );
 // };
-const store= createStore(reducers);
+const store = createStore(reducers, {}, applyMiddleware(thunk));
 export default store;

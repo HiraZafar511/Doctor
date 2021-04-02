@@ -14,33 +14,33 @@ const Footer = () => {
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.{" "}
+                    aliqua.
                   </p>
                   <div className="social-icon">
                     <ul>
                       <li>
-                        <a href="#" target="_blank">
-                          <i className="fab fa-facebook-f"></i>{" "}
+                        <a href="https://www.facebook.com/" target="_blank">
+                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#" target="_blank">
-                          <i className="fab fa-twitter"></i>{" "}
+                        <a href="https://twitter.com/" target="_blank">
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#" target="_blank">
+                        <a href="https://www.linkedin.com/" target="_blank">
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#" target="_blank">
+                        <a href="https://www.instagram.com/" target="_blank">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#" target="_blank">
-                          <i className="fab fa-dribbble"></i>{" "}
+                        <a href="https://dribbble.com/" target="_blank">
+                          <i className="fab fa-dribbble"></i>
                         </a>
                       </li>
                     </ul>
@@ -117,7 +117,7 @@ const Footer = () => {
                     </span>
                     <p>
                       3556 Beech Street, San Francisco,
-                      <br /> California, CA 94108{" "}
+                      <br /> California, CA 94108
                     </p>
                   </div>
                   <p>
