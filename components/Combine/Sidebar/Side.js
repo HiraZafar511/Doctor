@@ -85,60 +85,9 @@ const Side = () => {
         {con.map((item, key) => (
           <Sidebar item={item} />
         ))}
-      </div>
-      <div
-        className="resize-sensor"
-        style={{
-          position: "absolute",
-          inset: 0,
-          overflow: " hidden",
-          visibility: " hidden",
-        }}
-      >
-        <div
-          className="resize-sensor-expand"
-          style={{
-            position: "absolute",
-            left: "0",
-            top: 0,
-            right: 0,
-            bottom: 0,
-            overflow: "hidden",
-            visibility: "hidden",
-          }}
-        >
-          <div
-            style={{
-              position: " absolute",
-              left: 0,
-              top: 0,
-              width: 310,
-              height: 834,
-            }}
-          ></div>
-        </div>
-        <div
-          className="resize-sensor-shrink"
-          style={{
-            position: " absolute",
-            left: "0",
-            top: 0,
-            right: 0,
-            bottom: 0,
-            overflow: "hidden",
-            visibility: "hidden",
-          }}
-        >
-          <div
-            style={{
-              position: "absolute",
-              left: 0,
-              top: 0,
-              width: "200%",
-              height: "200%",
-            }}
-          ></div>
-        </div>
+      
+     
+        
       </div>
     </div>
   );

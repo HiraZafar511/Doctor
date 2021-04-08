@@ -55,23 +55,33 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="fas fa-angle-right"></i>
-                    <a href="search.html">Search for Doctors</a>
+                    <Link href="/search-doctor">
+                       <a href="#" >Search for Doctors</a>
+                    </Link>
                   </li>
                   <li>
                     <i className="fas fa-angle-right"></i>
-                    <a href="login.html">Login</a>
+                    <Link href="/login">
+                       <a href="#">Login</a>
+                    </Link>
                   </li>
                   <li>
                     <i className="fas fa-angle-right"></i>
-                    <a href="register.html">Register</a>
+                    <Link href="/patientRegistration">
+                       <a href="#" >Register</a>
+                    </Link>
                   </li>
                   <li>
                     <i className="fas fa-angle-right"></i>
-                    <a href="booking.html">Booking</a>
+                    <Link href="/booking">
+                      <a href="booking.html">Booking</a>
+                    </Link>
                   </li>
                   <li>
                     <i className="fas fa-angle-right"></i>
-                    <a href="patient-dashboard.html">Patient Dashboard</a>
+                    <Link href="/patientDashboard">
+                       <a href="#">Patient Dashboard</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -84,24 +94,29 @@ const Footer = () => {
                   <li>
                     <i className="fas fa-angle-right"></i>
                     <Link href="/appointments">
-                      <a href="appointments.html">Appointments</a>
+                    <Link href="/appointments">
+                       <a href="#">Appointments</a>
+                    </Link>
+                    </Link>
+                  </li>
+                
+                  <li>
+                    <i className="fas fa-angle-right"></i>
+                    <Link href="/login">
+                       <a href="#" >Login</a>
                     </Link>
                   </li>
                   <li>
                     <i className="fas fa-angle-right"></i>
-                    <a href="chat.html">Chat</a>
+                    <Link href="/registration">
+                       <a href="#" >Register</a>
+                    </Link>
                   </li>
                   <li>
                     <i className="fas fa-angle-right"></i>
-                    <a href="login.html">Login</a>
-                  </li>
-                  <li>
-                    <i className="fas fa-angle-right"></i>
-                    <a href="doctor-register.html">Register</a>
-                  </li>
-                  <li>
-                    <i className="fas fa-angle-right"></i>
-                    <a href="doctor-dashboard.html">Doctor Dashboard</a>
+                    <Link href="/dashboard">
+                       <a href="#">Doctor Dashboard</a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -148,10 +163,16 @@ const Footer = () => {
                 <div className="copyright-menu">
                   <ul className="policy-menu">
                     <li>
-                      <a href="term-condition.html">Terms and Conditions</a>
+                    <Link href="/termsCondition">
+                       <a href="#" className="listPad">Terms and Conditions
+</a>
+                    </Link>
                     </li>
                     <li>
-                      <a href="privacy-policy.html">Policy</a>
+                    <Link href="/policy">
+                       <a href="#" className="listPad">Policy
+</a>
+                    </Link>
                     </li>
                   </ul>
                 </div>

@@ -1,26 +1,30 @@
 import Link from "next/link";
 
-const Reg = () => {
+const index = () => {
   return (
     <div className="registration">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-8 offset-md-2">
-            <div className="account-content">
-           
-              <div className="row align-items-center justify-content-center">
-                
-                <div className="col-md-12 col-lg-6 login-right">
-               
+            <div class="account-content">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-md-7 col-lg-6 login-left">
+                  <img
+                    src="/images/login-banner.png"
+                    class="img-fluid"
+                    alt="Doccure Login"
+                  />
+                </div>
+                <div class="col-md-12 col-lg-6 login-right">
                   <div className="login-header">
                     <h3>
-                    Doctor Register
-                      <Link href="/patientRegistration">
-                      <a href="#">Not a Doctor?</a>
-                    </Link>
+                      Patient Register
+                      <Link href="/registration">
+                        <a href="#">Are you a Doctor?</a>
+                      </Link>
                     </h3>
                   </div>
-                  <form action="/app/Mentor/dashboard">
+                  <form>
                     <div className="form-group form-focus">
                       <input
                         type="text"
@@ -28,6 +32,7 @@ const Reg = () => {
                         placeholder="Name"
                       />
                     </div>
+
                     <div className="form-group form-focus">
                       <input
                         type="text"
@@ -35,23 +40,49 @@ const Reg = () => {
                         placeholder="Mobile Number"
                       />
                     </div>
+
                     <div className="form-group form-focus">
                       <input
-                        type="password"
+                        type="text"
                         className="form-control floating"
                         placeholder="Create Password"
                       />
                     </div>
+
+                    <div class="terms-and-policy pt-2 pb-2">
+                      <input
+                        type="checkbox"
+                        required=""
+                        name="checkbox"
+                        value="check"
+                        id="agree"
+                      />
+                      <span class="agree">
+                        I agree to these{" "}
+                        <span class="terms">
+                          <a href="term-condition.html" target="_blank">
+                            Terms of Use
+                          </a>{" "}
+                          and{" "}
+                          <a href="privacy-policy.html" target="_blank">
+                            Privacy Policy
+                          </a>
+                        </span>
+                      </span>
+                    </div>
+
                     <div className="text-right">
-                      <a className="forgot-link" href="/login">
-                        Already have an account?
-                      </a>
+                      <Link href="/login">
+                        <a href="#" className="forgot-link2">
+                          Already have an account?
+                        </a>
+                      </Link>
                     </div>
                     <button
                       className="btn btn-block btn-lg login-btn"
                       type="submit"
                     >
-                      Signup
+                      Login
                     </button>
                     <div className="login-or">
                       <span className="or-line"></span>
@@ -88,4 +119,4 @@ const Reg = () => {
   );
 };
 
-export default Reg;
+export default index;

@@ -11,6 +11,13 @@ import invoices from "./reducers/invoices";
 import mapGrid from "./reducers/mapGrid";
 import mapList from "./reducers/mapList";
 import patientList from "./reducers/patientList";
+import patientAppointment from "./reducers/patientProfile/appointment";
+import prescription from "./reducers/patientProfile/prescription";
+import medicalRecord from "./reducers/patientProfile/medicalRecord";
+import blogList from "./reducers/blog/blogList/blogListSide";
+import blogListLeft from "./reducers/blog/blogList/blogListLeft";
+import gridData from "./reducers/gridData";
+
 
 const reducers = combineReducers({
   heartCareCaro,
@@ -23,6 +30,14 @@ const reducers = combineReducers({
   mapGrid,
   mapList,
   patientList,
+  patientAppointment,
+  prescription,
+  medicalRecord,
+  blogList,
+  blogListLeft,
+  gridData,
+
+ 
 });
 
 // export const initStore = (initialState = {}) => {

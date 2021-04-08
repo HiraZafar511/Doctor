@@ -23,59 +23,85 @@ const Header = () => {
             <ul className="nav navbar-nav flex-D">
               <li className="active">
                 <Link href="/">
-                  <a href="#">Home</a>
+                  <a href="#" className="listPad">
+                    Home
+                  </a>
                 </Link>
               </li>
-              <li className="dropdown">
+              <li className="dropdown ">
                 <a className="dropdown-toggle" data-toggle="dropdown" href="#">
                   Doctors <i className="fas fa-chevron-down"></i>
                 </a>
 
                 <ul className="dropdown-menu ">
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/dashboard">
-                      <a href="#">Doctor Dashboard</a>
+                      <a href="#" className="listPad">
+                        Doctor Dashboard
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/appointments">
-                      <a href="#">Appointments</a>
+                      <a href="#" className="listPad">
+                        Appointments
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/schedual">
-                      <a href="#">Schedule Timing</a>
+                      <a href="#" className="listPad">
+                        Schedule Timing
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/patientList">
-                      <a href="#">Patient List</a>
+                      <a href="#" className="listPad">
+                        Patient List
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
-                    <a href="#">Patients Profile</a>
+                  <li className="hove bbtm">
+                    <Link href="/patientProfile">
+                      <a href="#" className="listPad">
+                        Patient Profile
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/booking">
-                      <a href="booking.html">Booking</a>
+                      <a href="#" className="listPad">
+                        Booking
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/profileSetting">
-                      <a href="#">Profile Setting</a>
+                      <a href="#" className="listPad">
+                        Profile Setting
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
-                    <a href="#">Reviews</a>
+                  <li className="hove bbtm">
+                    <Link href="/review">
+                      <a href="#" className="listPad">
+                        Reviews
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/invoices">
-                      <a href="#">Invoices</a>
+                      <a href="#" className="listPad">
+                        Invoices
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/registration">
-                      <a href="#">Doctor Register</a>
+                      <a href="#" className="listPad">
+                        Doctor Register
+                      </a>
                     </Link>
                   </li>
                 </ul>
@@ -85,64 +111,88 @@ const Header = () => {
                   Patients <i className="fas fa-chevron-down"></i>
                 </a>
                 <ul className="dropdown-menu ">
-                  <li className="dropdown hove">
+                  <li className="dropdown hove bbtm">
                     <a
-                      className="dropdown-toggle"
+                      className="dropdown-toggle listPad"
                       data-toggle="dropdown"
                       href="#"
                     >
                       Doctors <i className="fas fa-chevron-right"></i>
                     </a>
                     <ul className="dropdown-menu ">
-                      <li className="hove">
+                      <li className="hove bbtm">
                         <Link href="/mapGrid">
-                          <a href="#">Map Grip</a>
+                          <a href="#" className="listPad">
+                            Map Grip
+                          </a>
                         </Link>
                       </li>
-                      <li className="hove">
+                      <li className="hove bbtm">
                         <Link href="/mapList">
-                          <a href="#">Map List</a>
+                          <a href="#" className="listPad">
+                            Map List
+                          </a>
                         </Link>
                       </li>
                     </ul>
                   </li>
-                  <li className="hove">
-                    <a href="search.html">Search Doctor</a>
+                  <li className="hove bbtm">
+                    <Link href="/search-doctor">
+                      <a href="#" className="listPad">
+                        Search Doctor
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/doctorProfile">
-                      <a href="#">Doctor Profile</a>
+                      <a href="#" className="listPad">
+                        Doctor Profile
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
-                    <Link href="/booking">
-                      <a href="booking.html">Booking</a>
-                    </Link>
-                  </li>
-                  <li className="hove">
+
+                  <li className="hove bbtm">
                     <Link href="/checkout">
-                      <a href="#">Checkout</a>
+                      <a href="#" className="listPad">
+                        Checkout
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/bookingSuccess">
-                      <a href="#">Booking Success</a>
+                      <a href="#" className="listPad">
+                        Booking Success
+                      </a>
                     </Link>
                   </li>
-                  <li className="hove">
-                    <a href="patient-dashboard.html">Patient Dashboard</a>
+                  <li className="hove bbtm">
+                    <Link href="/patientDashboard">
+                      <a href="#" className="listPad">
+                        Patient Dashboard
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="favourites.html">Favourites</a>
+                  <li className="hove bbtm">
+                    <Link href="/favourites">
+                      <a href="#" className="listPad">
+                        Favourites
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="chat.html">Chat</a>
+
+                  <li className="hove bbtm">
+                    <Link href="/PatientProfileSetting">
+                      <a href="#" className="listPad">
+                        Profile Setting
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="profile-settings.html">Profile Settings</a>
-                  </li>
-                  <li className="hove">
-                    <a href="change-password.html">Change Password</a>
+                  <li className="hove bbtm">
+                    <Link href="/changePassword">
+                      <a href="#" className="listPad">
+                        Change Password
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -152,57 +202,68 @@ const Header = () => {
                   Pages <i className="fas fa-chevron-down"></i>
                 </a>
                 <ul className="dropdown-menu ">
-                  <li className="hove">
-                    <a href="voice-call.html">Voice Call</a>
+                  <li className="hove bbtm">
+                    <Link href="/search-doctor">
+                      <a href="#" className="listPad">
+                        Search Doctor
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="video-call.html">Video Call</a>
-                  </li>
-                  <li className="hove">
-                    <a href="search.html">Search Doctors</a>
-                  </li>
-                  <li className="hove">
+                  <li className="hove bbtm">
                     <Link href="/calender">
-                      <a href="#">Calendar</a>
+                      <a href="#" className="listPad">
+                        Calendar
+                      </a>
                     </Link>
                   </li>
 
-                  <li className="hove">
-                    <a href="components.html">Components</a>
-                  </li>
-                  <li className="dropdown hove">
+                  <li className="dropdown hove bbtm">
                     <a
-                      className="dropdown-toggle"
+                      className="dropdown-toggle listPad"
                       data-toggle="dropdown"
                       href="#"
                     >
                       Invoices <i className="fas fa-chevron-right"></i>
                     </a>
                     <ul className="dropdown-menu ">
-                      <li className="hove">
+                      <li className="hove bbtm">
                         <Link href="/invoices">
-                          <a href="#">Invoices</a>
+                          <a href="#" className="listPad">
+                            Invoices
+                          </a>
                         </Link>
                       </li>
 
-                      <li className="hove">
+                      <li className="hove bbtm">
                         <Link href="/invoiceView">
-                          <a href="#">Invoice View</a>
+                          <a href="#" className="listPad">
+                            Invoice View
+                          </a>
                         </Link>
                       </li>
                     </ul>
                   </li>
-                  <li className="hove">
-                    <a href="blank-page.html">Starter Page</a>
+
+                  <li className="hove bbtm">
+                    <Link href="/login">
+                      <a href="#" className="listPad">
+                        Login
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="login.html">Login</a>
+                  <li className="hove bbtm">
+                    <Link href="/patientRegistration">
+                      <a href="#" className="listPad">
+                        Register
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="register.html">Register</a>
-                  </li>
-                  <li className="hove">
-                    <a href="forgot-password.html">Forgot Password</a>
+                  <li className="hove bbtm">
+                    <Link href="/forgotPassword">
+                      <a href="#" className="listPad">
+                        Forgot Password
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -211,42 +272,36 @@ const Header = () => {
                   Blog <i className="fas fa-chevron-down"></i>
                 </a>
                 <ul className="dropdown-menu ">
-                  <li className="hove">
-                    <a href="#">Blog List</a>
+                  <li className="hove bbtm">
+                    <Link href="/blogList">
+                      <a href="#" className="listPad">
+                        Blog List
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="#">Blog Grid</a>
+                  <li className="hove bbtm">
+                    <Link href="/blogGrid">
+                      <a href="#" className="listPad">
+                        Blog Grid
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="#">Schedule Timing</a>
+                  <li className="hove bbtm">
+                    <Link href="/blogDetail">
+                      <a href="#" className="listPad">
+                        Blog Detail
+                      </a>
+                    </Link>
                   </li>
-                  <li className="hove">
-                    <a href="#">Patient List</a>
-                  </li>
-                  <li className="hove">
-                    <a href="#">Patients Profile</a>
-                  </li>
-                  <li className="hove">
-                    <a href="#">Chat</a>
-                  </li>
-                  <li className="hove">
-                    <a href="#">Invoices</a>
-                  </li>
-                  <li className="hove">
-                    <a href="#">Profile Setting</a>
-                  </li>
-                  <li className="hove">
-                    <a href="#">Reviews</a>
-                  </li>
-                  <li className="hove">
+
+                  <li className="hove bbtm">
                     <Link href="/registration">
-                      <a href="#">Doctor Register</a>
+                      <a href="#" className="listPad">
+                        Doctor Register
+                      </a>
                     </Link>
                   </li>
                 </ul>
-              </li>
-              <li>
-                <a href="#">Admin</a>
               </li>
             </ul>
             <ul className="nav navbar-nav navbar-right flex-D log">
@@ -260,9 +315,9 @@ const Header = () => {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link header-login" href="login.html">
-                  login / Signup
-                </a>
+                <Link href="/login">
+                  <a className="nav-link header-login">login / Signup</a>
+                </Link>
               </li>
             </ul>
           </div>
