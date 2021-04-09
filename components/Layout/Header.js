@@ -1,5 +1,9 @@
 import Link from "next/link";
+import { useState } from "react";
 const Header = () => {
+
+
+
   return (
     <div className="header">
       <nav className="navbar ">
@@ -23,18 +27,20 @@ const Header = () => {
             <ul className="nav navbar-nav flex-D">
               <li className="active">
                 <Link href="/">
-                  <a href="#" className="listPad">
+                  <a href="#" className=""
+                 
+                 >
                     Home
                   </a>
                 </Link>
               </li>
-              <li className="dropdown ">
+              <li className="dropdown " >
                 <a className="dropdown-toggle" data-toggle="dropdown" href="#">
                   Doctors <i className="fas fa-chevron-down"></i>
                 </a>
 
                 <ul className="dropdown-menu ">
-                  <li className="hove bbtm">
+                  <li className="hove bbtm " >
                     <Link href="/dashboard">
                       <a href="#" className="listPad">
                         Doctor Dashboard

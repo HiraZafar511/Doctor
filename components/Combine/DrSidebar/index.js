@@ -16,7 +16,7 @@ const Side = () => {
     {
       icon: "fa-user-injured",
       title: "My Patients",
-      page: "patients",
+      page: "patientList",
     },
     {
       icon: "fa-hourglass-start",
@@ -31,34 +31,25 @@ const Side = () => {
     {
       icon: "fa-star",
       title: "Reviews",
-      page: "reviews",
+      page: "review",
     },
-    {
-      icon: "fa-comments",
-      title: "Message",
-      page: "messages",
-    },
+   
     {
       icon: "fa-user-cog",
       title: "Profile Settings",
-      page: "profile",
+      page: "profileSetting",
     },
     {
       icon: "fa-share-alt",
       title: "Social Media",
-      page: "socialmedia",
+      page: "socialMedia",
     },
-    ,
-    {
-      icon: "fa-lock",
-      title: "Change Password",
-      page: "password",
-    },
+  
     ,
     {
       icon: "fa-sign-out-alt",
       title: "Logout",
-      page: "logout",
+      page: "/",
     },
   ]);
 

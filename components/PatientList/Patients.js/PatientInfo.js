@@ -1,4 +1,4 @@
-import Side from "../../Combine/Sidebar/Side";
+import Side from "../../Combine/DrSidebar/index";
 import { useSelector } from "react-redux";
 import List from "./List";
 

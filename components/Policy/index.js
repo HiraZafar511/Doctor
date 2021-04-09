@@ -1,6 +1,6 @@
 const index = () => {
   return (
-    <div class="content" >
+    <div class="content terms" >
       <div class="container">
         <div class="row">
           <div class="col-12">

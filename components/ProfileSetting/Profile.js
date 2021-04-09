@@ -1,4 +1,4 @@
-import Side from "../Combine/Sidebar/Side";
+import Side from "../Combine/DrSidebar/index";
 const Profile = () => {
   return (
     <div className="profile">

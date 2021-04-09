@@ -1,4 +1,4 @@
-import Side from "../Combine/Sidebar/Side";
+import Side from "../Combine/DrSidebar/index";
 import { useState } from "react";
 import SubAppoint from "./SubAppoint";
 import { useSelector } from "react-redux";

@@ -999,7 +999,7 @@ a:hover {
 }
 .flex-D .hove a:hover {
   transition: all 0.4s ease 0s;
-  background-color: none;
+  background: none !important;
 }
 .testimonials button {
   display: none;
@@ -1036,6 +1036,7 @@ a:hover {
   margin-bottom: 30px;
   overflow: hidden;
 }
+
 .widget-profile {
   background-color: #fff;
   border-bottom: 1px solid #f0f0f0;
@@ -3736,8 +3737,27 @@ table.table td h2 span {
   display: inline-block;
   font-size: 16px;
 }
-
+.terms {border-top: 1px solid #8e8e8a59}
 /* =================================================end of terms & conditions================================= */
+
+
+/* =================================================start of social media==================================== */
+
+.media .form-control {
+  border-color: #dcdcdc;
+  color: #333;
+  font-size: 15px;
+  min-height: 46px;
+  padding: 6px 15px;
+}
+.media label{
+  font-weight: 500;
+}
+.media .btn-primary {
+  background-color: #ee344e;
+  border: 1px solid #ee344e;
+}
+/* =================================================end o social media======================================= */
 
 /* ============================media query============================== */
 

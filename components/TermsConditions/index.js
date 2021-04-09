@@ -1,5 +1,5 @@
 const index = () => {
-    return ( <div class="content" >
+    return ( <div class="content terms" >
     <div class="container">
         <div class="row">
             <div class="col-12">

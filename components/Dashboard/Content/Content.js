@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Dashcard from "./Dashcard";
-import Side from "../../Combine/Sidebar/Side";
+import Side from "../../Combine/DrSidebar/index";
 import { useSelector } from "react-redux";
 
 const Content = () => {

@@ -1,5 +1,5 @@
 import Review from "../DoctorProfile/TabsOption/Reviews";
-import Side from "../Combine/Sidebar/Side";
+import Side from "../Combine/DrSidebar/index";
 const Reviews = () => {
   return (
     <div className="container-fluid">
