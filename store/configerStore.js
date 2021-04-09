@@ -16,7 +16,7 @@ import prescription from "./reducers/patientProfile/prescription";
 import medicalRecord from "./reducers/patientProfile/medicalRecord";
 import blogList from "./reducers/blog/blogList/blogListSide";
 import blogListLeft from "./reducers/blog/blogList/blogListLeft";
-import gridData from "./reducers/gridData";
+import gridData from "./reducers/blog/blogGrid/gridData";
 
 
 const reducers = combineReducers({

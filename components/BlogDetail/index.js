@@ -1,5 +1,5 @@
 import BlogSide from "../Combine/Blog/BlogRightSide";
-import Detail from "./Detail"; 
+import Detail from "./[Detail]"; 
 const index = () => {
     return ( <div className="bloglist">
     <div className="container">

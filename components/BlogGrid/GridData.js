@@ -12,11 +12,11 @@ const Grid = () => {
         <div className="col-md-6 col-sm-12">
           <div className="blog grid-blog">
             <div class="blog-image">
-              <Link href="/blogDetail">
+              <Link href="/blogDetail" >
                 <a href="#">
                   <img
                     class="img-fluid"
-                    src="/images/blog-01.jpg"
+                    src={`/images/${item.img}`}
                     alt="Post Image"
                   />
                 </a>
@@ -28,27 +28,26 @@ const Grid = () => {
                   <div class="post-author">
                     <a href="doctor-profile.html">
                       <img
-                        src="/images/doctor-thumb-01.jpg"
+                        src={`/images/${item.img1}`}
                         alt="Post Author"
                       />{" "}
-                      <span>Dr. Ruby Perrin</span>
+                      <span>{item.name}</span>
                     </a>
                   </div>
                 </li>
                 <li>
-                  <i class="far fa-clock"></i> 4 Dec 2019
+                  <i class="far fa-clock"></i> {item.date}
                 </li>
               </ul>
               <h3 class="blog-title">
                 <Link href="/blogDetail">
                   <a href="#">
-                    Doccure – Making your clinic painless visit?
+                   {item.title}
                   </a>
                 </Link>
               </h3>
               <p class="mb-0">
-                Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed
-                do eiusmod tempor.
+              {item.detail}
               </p>
             </div>
           </div>
